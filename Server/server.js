@@ -9,7 +9,7 @@ class Server{
     constructor() {
         this.headers = {
             cors: {
-                origin: 'http://localhost:3000',
+                origin: 'https://foodforuweb.netlify.app',
                 methods: ["GET", "POST"]
             }
         }
